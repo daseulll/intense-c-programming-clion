@@ -2,11 +2,12 @@
 
 int main(void)
 {
-    int x = 3;
-    printf("x는 %f 입니다.\n", x);
+    int x = 10;
 
-    char greeting[6] = "hello";
-    printf("\t %s \n", greeting);
+    putchar('B');
+    putchar('\n');
 
-    printf("%c\n", 'D');
+    printf("%c\n", 'A');
+    printf("x는 %d 입니다.", x);
+    return 0;
 }
